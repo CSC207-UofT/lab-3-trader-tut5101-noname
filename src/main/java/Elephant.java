@@ -15,13 +15,6 @@ public class Elephant implements Drivable, Domesticatable, Tradable {
         this.Speed++;
 
     }
-
-    @Override
-    public void downgradeSpeed() {
-        this.Speed--;
-
-    }
-
     @Override
     public int getMaxSpeed() {
         return this.Speed;
