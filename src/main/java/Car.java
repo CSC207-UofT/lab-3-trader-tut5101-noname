@@ -1,18 +1,18 @@
 public class Car implements Tradable, Drivable{
     private int speed;
-    private final int price;
+    private final int PRICE;
 
-    /** creates a car
+    /** Creates a car
      *
      * @param speed the speed of the car
      * @param price the price of the car
      */
     public Car( int speed, int price){
         this.speed = speed;
-        this.price = price;
+        this.PRICE = price;
     }
 
-    /** increases speed by 1
+    /** Increases speed by 1
      *
      */
     @Override
@@ -20,7 +20,7 @@ public class Car implements Tradable, Drivable{
         this.speed++;
     }
 
-    /** decreases speed by 1
+    /** Decreases speed by 1
      *
      */
     @Override
@@ -28,7 +28,7 @@ public class Car implements Tradable, Drivable{
         this.speed--;
     }
 
-    /** returns the speed of the car
+    /** Returns the speed of the car
      *
      * @return the speed of the car
      */
@@ -37,12 +37,12 @@ public class Car implements Tradable, Drivable{
         return this.speed;
     }
 
-    /** returns the price of the car
+    /** Returns the price of the car
      *
      * @return the price
      */
     @Override
     public int getPrice() {
-        return price;
+        return this.PRICE;
     }
 }
