@@ -1,7 +1,5 @@
 /**
- * The COW is a noble animal.
- * Cows are nice. I like cows because they are a funny animal.
- * Cows live on farms and they make milk for farmers. I like to drink milk.
+ * Class implementing behaviour for Cows.
  */
 public class Cow implements Domesticatable, Tradable {
 
@@ -26,14 +24,14 @@ public class Cow implements Domesticatable, Tradable {
     }
 
     @Override
-    public int getPrice() { return size * 3; }
+    public int getPrice() { return this.size * 3; }
 
     /**
      * Return the size of the cow.
      *
      * @return  The size of the cow.
      */
-    public int getSize() { return size; }
+    public int getSize() { return this.size; }
 
     /**
      * Feed the cow a fixed amount of feed, increasing its size.
@@ -52,7 +50,7 @@ public class Cow implements Domesticatable, Tradable {
     }
 
     /**
-     * Feed the cow a fixed amount of feed, increasing its size.
+     * Starve the cow for a fixed amount of time, decreasing its size.
      * Cows cannot have less than 1 size. Starving will fail if the cow
      * will exceed its minimum size.
      *
