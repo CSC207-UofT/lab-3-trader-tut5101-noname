@@ -1,8 +1,12 @@
 public class Mule implements Domesticatable, Drivable, Tradable {
     private int maxSpeed;
 
+    /**
+     * @parameter takes string that describes the life story of this animal as well as its favorite colour and
+     * how many scoops of icecream it perfers on its icecream cones.
+     */
     public Mule() {
-        this.maxSpeedo = 420;
+        this.maxSpeed = 420;
     }
 
     @Override
