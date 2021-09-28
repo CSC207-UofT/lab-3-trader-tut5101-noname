@@ -98,8 +98,10 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
-
-
+          
+                // TODO: Add Tradable objects here!
+                new TeslaModel3(),
+          
                 new Car(70, 30000)
                 new Wolf(),
                 new Wolf(),
@@ -109,7 +111,6 @@ public class Trader {
                 new Elephant(),
 
 
-                // TODO: Add Tradable objects here!
                 new Mule()
         );
 
