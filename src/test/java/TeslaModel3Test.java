@@ -4,11 +4,11 @@ import static org.junit.Assert.*;
 
 public class TeslaModel3Test {
 
-    T3 t;
+    TeslaModel3 t;
 
     @Before
     public void setUp() throws Exception {
-        t = new T3();
+        t = new TeslaModel3();
     }
 
     @Test(timeout = 50)

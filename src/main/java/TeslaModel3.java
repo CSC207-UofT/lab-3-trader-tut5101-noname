@@ -1,14 +1,14 @@
 /**
  * A public class that represents a Tesla Model 3 and implements the Drivable and Tradable class.
  */
-public class T3 implements Drivable, Tradable{
-    private int s;
+public class TeslaModel3 implements Drivable, Tradable{
+    private int speed;
 
     /**
      * Construct a T3, giving it a speed value of 100.
      */
-    public T3(){
-        this.s = 100;
+    public TeslaModel3(){
+        this.speed = 100;
     }
 
 
@@ -17,7 +17,7 @@ public class T3 implements Drivable, Tradable{
      */
     @Override
     public void upgradeSpeed() {
-        this.s += 5;
+        this.speed += 5;
 
     }
 
@@ -26,17 +26,17 @@ public class T3 implements Drivable, Tradable{
      */
     @Override
     public void downgradeSpeed() {
-        this.s--;
+        this.speed--;
 
     }
 
     /**
-     * Return the max speed value.
+     * Return the max speed value.s
      * @return the speed value
      */
     @Override
     public int getMaxSpeed() {
-        return this.s;
+        return this.speed;
     }
 
     /**
@@ -51,6 +51,6 @@ public class T3 implements Drivable, Tradable{
     @Override
     public String toString(){
         String id = super.toString();
-        return id + " (Max speed: " + this.s +")";
+        return id + " (Max speed: " + this.speed +")";
     }
 }
