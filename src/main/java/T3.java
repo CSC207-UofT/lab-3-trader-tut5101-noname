@@ -36,7 +36,7 @@ public class T3 implements Drivable, Tradable{
      */
     @Override
     public int getMaxSpeed() {
-        return s;
+        return this.s;
     }
 
     /**
