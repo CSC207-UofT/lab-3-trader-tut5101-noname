@@ -94,9 +94,21 @@ public class Trader {
          * (or multiple instances of it) to the all_items list below.
          */
         List<Tradable> all_items = Arrays.asList(
+                new Cow(),
                 new Horse(),
                 new Horse(),
                 new Horse(),
+
+
+                new Car(70, 30000)
+                new Wolf(),
+                new Wolf(),
+                new Wolf(),
+                new Elephant(),
+                new Elephant(),
+                new Elephant(),
+
+
                 // TODO: Add Tradable objects here!
                 new Mule()
         );
