@@ -11,7 +11,7 @@ The provided program consists of Traders and the items that they sell: Creatures
 - `Horse.java`: An example of a class that implements the various interfaces.
 
 In `test/main/java` we have given you the following file:
-- `HorseTest.java`: An example test suite for the `Horse` class provided.
+- `MuleTest.java`: An example test suite for the `Horse` class provided.
 
 ### Task 2: Implementing a class with interfaces
 In this task you'll be writing a class that implements the `Tradable` interface and at least one of the other provided interfaces (i.e. `Drivable`, `Domesticatable`, or both). In addition, you should be writing test cases for your class and adding at least one instance of your new class to `Trader.java`'s main method.
