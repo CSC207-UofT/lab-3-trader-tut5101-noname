@@ -10,7 +10,6 @@ public class Car implements Tradable, Drivable{
     public Car( int speed, int price){
         this.speed = speed;
         this.PRICE = price;
-
     }
 
     /** Increases speed by 1
